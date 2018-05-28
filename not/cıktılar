@@ -1,0 +1,60 @@
+
+/home/mervek/PycharmProjects/untitled/venv/bin/python /home/mervek/Desktop/bitirme/modelwithlogistic.py
+logistic R: ortalama= 0.458088 standart sapma =(0.158738)
+
+dogruluk oranı:  0.5952380952380952
+karşılaştırma matrisi :
+  [[4 0 0 0 1 1]
+ [0 2 1 2 0 0]
+ [0 0 2 0 3 1]
+ [0 0 0 7 0 1]
+ [1 0 3 0 3 0]
+ [0 0 2 1 0 7]]
+sınıflandırma sonuçları:
+              precision    recall  f1-score   support
+
+        1.0       0.80      0.67      0.73         6
+        2.0       1.00      0.40      0.57         5
+        3.0       0.25      0.33      0.29         6
+        4.0       0.70      0.88      0.78         8
+        5.0       0.43      0.43      0.43         7
+        6.0       0.70      0.70      0.70        10
+
+avg / total       0.64      0.60      0.60        42
+
+[ INFO:0] Initialize OpenCL runtime...
+video tahmin etiketi : [3.]
+
+Process finished with exit code 0
+
+
+/home/mervek/PycharmProjects/untitled/venv/bin/python /home/mervek/Desktop/bitirme/modelwithlogistic.py
+logistic R: ortalama= 0.971714 standart sapma =(0.035323)
+
+dogruluk oranı:  0.9758064516129032
+karşılaştırma matrisi :
+  [[16  0  0  0  0  0]
+ [ 0 17  0  0  3  0]
+ [ 0  0 23  0  0  0]
+ [ 0  0  0 23  0  0]
+ [ 0  0  0  0 17  0]
+ [ 0  0  0  0  0 25]]
+sınıflandırma sonuçları:
+              precision    recall  f1-score   support
+
+        1.0       1.00      1.00      1.00        16
+        2.0       1.00      0.85      0.92        20
+        3.0       1.00      1.00      1.00        23
+        4.0       1.00      1.00      1.00        23
+        5.0       0.85      1.00      0.92        17
+        6.0       1.00      1.00      1.00        25
+
+avg / total       0.98      0.98      0.98       124
+
+[ INFO:0] Initialize OpenCL runtime...
+video tahmin etiketi : [3.]
+
+Process finished with exit code 0
+
+
+
